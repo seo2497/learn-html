@@ -11,8 +11,9 @@
     <form>
       <h5>로그인 해주세요</h5>
       <div>
-        ID:
+        <label for="userid">ID:</label>
         <input
+          id="userid"
           type="text"
           name="userId"
           value=""
@@ -33,6 +34,32 @@
       <br />
       <br />
       <input type="submit" value="로그인" />
+    </form>
+    <form>
+      <!-- 체크박스  -->
+      <h5>개발환경 설치</h5>
+      <input type="checkbox" name="setup" value="vscode" id="vacode" />
+      <label for="vacode"> VS Code설치 </label>
+      <br />
+      <input type="checkbox" name="setup" value="node" id="node" />
+      <label for="node">Node 설치</label>
+      <br />
+      <input type="checkbox" name="setup" value="git" id="git" />
+      <label for="git">Git 설치</label>
+      <br />
+      <input type="checkbox" name="setup" value="claudecode" id="claudecode" />
+      <label for="claudecode">Claude 코드 설치</label>
+
+      <!-- 라디오 버튼 -->
+      <h5>강의 난이도</h5>
+      <input type="radio" name="level" value="beginner" id="beginner" />
+      <label for="beginner"> 입문 </label>
+      <br />
+      <input type="radio" name="level" value="middle" id="middle" />
+      <label for="middle">중급</label>
+      <br />
+      <input type="radio" name="level" value="advanced" id="advanced" />
+      <label for="advanced">고급</label>
     </form>
   </body>
 </html>
