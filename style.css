@@ -1,0 +1,18 @@
+/* 요소선택자 */
+/* div{
+  background-color: aqua;
+  padding: 20px;
+} */
+
+/* id 선택자 */
+#text-block {
+  background-color: rgba(0, 0, 0, 0.549);
+  padding: 20px;
+}
+
+/* class 선택자 */
+.text-box{
+  background-color: black; 
+  color: white;
+  opacity: 0.8;
+}
